@@ -166,5 +166,6 @@ xset -dpms & # Disable Display Power Management (no standby, suspend, or power-o
 dbus-update-activation-environment --systemd --all & # Don't Exactly know which variables are updated but it's good idea to run it with startup, seen on forms
 /usr/lib/notification-daemon/notification-daemon & # Notification Demon
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 & # Policykit / Authentication Agent
+picom --experimental-backends --config ~/.config/picom/picom.conf --vsync & # Cumpositor
 exec dwm > ~/.dwm.log 2>&1
 ```
