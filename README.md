@@ -1,4 +1,3 @@
-
 # Current Kitty Terminal Config
 
 ~/.config/kitty
